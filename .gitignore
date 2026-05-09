@@ -1,0 +1,30 @@
+# ── Runtime state ───────────────────────────────────────────
+envs/
+logs/
+
+# ── Secrets ─────────────────────────────────────────────────
+.env
+
+# ── Auto-generated Nginx configs ────────────────────────────
+nginx/conf.d/*.conf
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# ── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
